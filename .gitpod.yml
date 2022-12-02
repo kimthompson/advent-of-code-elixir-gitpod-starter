@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Mix
+    command: mix local.hex --force && mix deps.get --force && mix local.hex --force
